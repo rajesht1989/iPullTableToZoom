@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925710151C2171B30029FEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925710131C2171B30029FEC0 /* Assets.xcassets */; };
+		925710161C2171B30029FEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925710141C2171B30029FEC0 /* LaunchScreen.storyboard */; };
 		927CF0711B15FE2600D2EFC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CF0701B15FE2600D2EFC4 /* main.m */; };
 		927CF0741B15FE2600D2EFC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CF0731B15FE2600D2EFC4 /* AppDelegate.m */; };
 		927CF0771B15FE2600D2EFC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CF0761B15FE2600D2EFC4 /* ViewController.m */; };
 		927CF07A1B15FE2600D2EFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927CF0781B15FE2600D2EFC4 /* Main.storyboard */; };
-		927CF07C1B15FE2600D2EFC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927CF07B1B15FE2600D2EFC4 /* Images.xcassets */; };
-		927CF07F1B15FE2600D2EFC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927CF07D1B15FE2600D2EFC4 /* LaunchScreen.xib */; };
-		927CF0951B15FE5200D2EFC4 /* House.png in Resources */ = {isa = PBXBuildFile; fileRef = 927CF0941B15FE5200D2EFC4 /* House.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		925710131C2171B30029FEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925710141C2171B30029FEC0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927CF06B1B15FE2600D2EFC4 /* iPullTableToZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPullTableToZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927CF06F1B15FE2600D2EFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927CF0701B15FE2600D2EFC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -25,11 +26,8 @@
 		927CF0751B15FE2600D2EFC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		927CF0761B15FE2600D2EFC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		927CF0791B15FE2600D2EFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		927CF07B1B15FE2600D2EFC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		927CF07E1B15FE2600D2EFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		927CF0891B15FE2600D2EFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927CF08A1B15FE2600D2EFC4 /* iPullTableToZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPullTableToZoomTests.m; sourceTree = "<group>"; };
-		927CF0941B15FE5200D2EFC4 /* House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +65,9 @@
 				927CF0731B15FE2600D2EFC4 /* AppDelegate.m */,
 				927CF0751B15FE2600D2EFC4 /* ViewController.h */,
 				927CF0761B15FE2600D2EFC4 /* ViewController.m */,
-				927CF0941B15FE5200D2EFC4 /* House.png */,
 				927CF0781B15FE2600D2EFC4 /* Main.storyboard */,
-				927CF07B1B15FE2600D2EFC4 /* Images.xcassets */,
-				927CF07D1B15FE2600D2EFC4 /* LaunchScreen.xib */,
+				925710131C2171B30029FEC0 /* Assets.xcassets */,
+				925710141C2171B30029FEC0 /* LaunchScreen.storyboard */,
 				927CF06E1B15FE2600D2EFC4 /* Supporting Files */,
 			);
 			path = iPullTableToZoom;
@@ -128,8 +125,7 @@
 		927CF0631B15FE2600D2EFC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = ZOHO;
+				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					927CF06A1B15FE2600D2EFC4 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -159,10 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927CF0951B15FE5200D2EFC4 /* House.png in Resources */,
 				927CF07A1B15FE2600D2EFC4 /* Main.storyboard in Resources */,
-				927CF07F1B15FE2600D2EFC4 /* LaunchScreen.xib in Resources */,
-				927CF07C1B15FE2600D2EFC4 /* Images.xcassets in Resources */,
+				925710161C2171B30029FEC0 /* LaunchScreen.storyboard in Resources */,
+				925710151C2171B30029FEC0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +185,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		927CF07D1B15FE2600D2EFC4 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				927CF07E1B15FE2600D2EFC4 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -222,6 +209,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -289,6 +277,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iPullTableToZoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorg.mstore.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -299,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iPullTableToZoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorg.mstore.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -322,6 +312,7 @@
 				927CF0901B15FE2600D2EFC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
