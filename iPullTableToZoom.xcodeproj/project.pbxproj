@@ -26,8 +26,6 @@
 		927CF0751B15FE2600D2EFC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		927CF0761B15FE2600D2EFC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		927CF0791B15FE2600D2EFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		927CF0891B15FE2600D2EFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		927CF08A1B15FE2600D2EFC4 /* iPullTableToZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPullTableToZoomTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				927CF06D1B15FE2600D2EFC4 /* iPullTableToZoom */,
-				927CF0871B15FE2600D2EFC4 /* iPullTableToZoomTests */,
 				927CF06C1B15FE2600D2EFC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,23 +75,6 @@
 			children = (
 				927CF06F1B15FE2600D2EFC4 /* Info.plist */,
 				927CF0701B15FE2600D2EFC4 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		927CF0871B15FE2600D2EFC4 /* iPullTableToZoomTests */ = {
-			isa = PBXGroup;
-			children = (
-				927CF08A1B15FE2600D2EFC4 /* iPullTableToZoomTests.m */,
-				927CF0881B15FE2600D2EFC4 /* Supporting Files */,
-			);
-			path = iPullTableToZoomTests;
-			sourceTree = "<group>";
-		};
-		927CF0881B15FE2600D2EFC4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				927CF0891B15FE2600D2EFC4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
